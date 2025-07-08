@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font3: 'Open Sans', serif;
+}
+
+html, body {
+    background-color: rgb(83, 81, 81);
+    font-family: var(--font1);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-family: var(--font1);
+    font-size: 5.5vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+div#musica {
+    text-align: right;
+}
+
+article {
+    font-family: var(--font3);
+    padding: 50px 0px 50px 20px;
+    line-height: 2.5em;
+}
+
+article.normal {
+    background-color: white;
+    color: black;
+}
+
+article.imagem {
+    background-color: rgb(22, 22, 22);
+    color: white;
+    box-shadow: inset 4px 6px 9px 1px rgba(0, 0, 0, 0.432);
+}
+
+article.imagem > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.329);
+    padding: 5px;
+}
+
+article#img1 {
+    background-image: url('img/Imagem\ WhatsApp\ 2025-06-20\ às\ 22.06.31_6a54dbb2.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article#img2 {
+    background-image: url('img/Imagem\ WhatsApp\ 2025-06-20\ às\ 22.32.11_4c7a7ab1.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article#img3 {
+    background-image: url('img/Imagem\ WhatsApp\ 2025-06-20\ às\ 22.36.46_189948b2.jpg');
+    background-position: right top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
